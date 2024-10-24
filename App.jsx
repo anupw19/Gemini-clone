@@ -1,15 +1,17 @@
-import React from "react-dom"
 import Sidebar from "./components/sidebar/sidebar"
 import Main from "./components/Main/main"
+import ContextProvider from "./context/context";
 
 
-const app = () => {
+const App = () => {
   return (
     <>
     <Sidebar/>
+    <ContextProvider>
     <Main />
+    </ContextProvider>
     </>
   )
 }
 
-export default app;
+export default App;

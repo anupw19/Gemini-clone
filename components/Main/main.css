@@ -128,3 +128,30 @@
 
 }
 
+.result{
+    padding: 0px 5%;
+    max-height: 70vh;
+    overflow-y: scroll;
+
+    .resultTitle{
+        margin: 40px 0px;
+        align-items: center;
+        display: flex;
+        gap: 20px;
+    }
+
+    img{
+        width: 40px;
+        border-radius: 50%;
+    }
+
+    .resultData{
+        display: flex;
+        align-items: start;
+        gap: 20px;
+    }
+}
+
+.result::-webkit-scrollbar{
+    display: none;
+}
