@@ -6,8 +6,9 @@ import ContextProvider from "./context/context";
 const App = () => {
   return (
     <>
-    <Sidebar/>
+   
     <ContextProvider>
+    <Sidebar/>
     <Main />
     </ContextProvider>
     </>
